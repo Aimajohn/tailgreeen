@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiverr</title>
+    <title>Just Books.</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
@@ -14,35 +14,44 @@
 </head>
 <body>
     <header >
-        <div class="header__logo">
+            <a href="">
+                <img class="header__logo__img" src="./img/just-books.png" alt="">
+            </a>
+        <div class="header__menu">
             <i class="material-icons ">menu</i>
-            <img class="h-5" src="./img/logo.png" alt="">
-        </div>
-        <div class="header__logo">
             <button><a href="">Iniciar sesión</a></button>
             <button><a href="">Registrate</a></button>
         </div>
     </header>
     <section class="hero">
         <div class="hero__disclaimer">
-            <h2 class="hero__disclaimer__title">Encuentra los sercicios <i class="font-cursive font-normal text-4xl"> freelance  </i> ideales para tu negocio</h2>
+            <h2 class="hero__disclaimer__title">Encuentra los <span class="text-principal2"> mejores libros</span>, <br>Porque  <span class="text-principal2"> leer </span> cambia la vida</h2>
             <div class="hero__searchbar">
-                <input type="text" class="hero__searchbar__input" placeholder=" Try  ''Create a Website'' ">
+                <input type="text" class="hero__searchbar__input" placeholder=" Try  ''Jordan Peterson'' ">
                 <input type="image" src="./img/search.svg" class="hero__searchbar__submit" >
             </div>
             <div class="hero__popular">
                 <span>Popular:</span>
                 <a class="hero__popular__category" href="">
-                    Diseño web y móvil
+                    Liberalismo
                 </a>
                 <a class="hero__popular__category" href="">
-                    WordPress
+                    Psicología
                 </a>
                 <a class="hero__popular__category" href="">
-                    Diseño de logos
+                    Diseño UI y UX
                 </a>
                 <a class="hero__popular__category" href="">
-                    Dropshipping
+                    Economía
+                </a>
+                <a class="hero__popular__category" href="">
+                    Marketing Digital
+                </a>
+                <a class="hero__popular__category" href="">
+                    Finanzas
+                </a>
+                <a class="hero__popular__category" href="">
+                    Juegos Mentales
                 </a>
             </div>
         </div>
@@ -50,14 +59,30 @@
     </section>
     <section class="trustedBar">
         <span>Con la confianza de:</span>
-        <img class="trustedBar__sponsor1" src="./img/google.517da09.png" alt="">
-        <img class="trustedBar__sponsor1" src="./img/netflix.e3ad953.png" alt="">
-        <img class="trustedBar__sponsor2" src="./img/facebook.31d5f92.png" alt="">
-        <img class="trustedBar__sponsor2" src="./img/paypal.ec56157.png" alt="">
-        <img class="trustedBar__sponsor2" src="./img/pandg.8b7310b.png" alt="">
+        <div class="trustedBar__sponsors">
+            <img class="trustedBar__sponsor1" src="./img/google.517da09.png" alt="">
+            <img class="trustedBar__sponsor1 h-5" src="./img/logo.zlibrary.png" alt="">
+            <img class="trustedBar__sponsor2" src="./img/facebook.31d5f92.png" alt="">
+            <img class="trustedBar__sponsor2" src="./img/paypal.ec56157.png" alt="">
+            <img class="trustedBar__sponsor2" src="./img/pandg.8b7310b.png" alt="">
+        </div>
     </section>
     <main>
         <section class="cardsContainer">
+            <div class="card">
+                <img src="./img/webwork.jpg" alt="" class="card__img">
+                <div class="card__info">
+                    <span class="card__info__subtitle">Desarrolla tu marca</span>
+                    <h4 class="card__info__title">Logo Design</h4>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/software.jpg" alt="" class="card__img">
+                <div class="card__info">
+                    <span class="card__info__subtitle">Desarrolla la innovacion</span>
+                    <h4 class="card__info__title">Phyton support</h4>
+                </div>
+            </div>
             <div class="card">
                 <img src="./img/webwork.jpg" alt="" class="card__img">
                 <div class="card__info">
@@ -89,18 +114,36 @@
         </section>
         <article class="articleContainer">
             <div class="articleContainer__info">
-                <h2 class="articleContainer__info__title">Qué es un Fred?</h2>
+                <h2 class="articleContainer__info__title">El Factor Fred</h2>
                 <p class="articleContainer__info__text">
-                    Un Fred es la cúspide de lo que las personas deberiamos aspirar a convertirnos, ser un Fred no se limita a quienes ofrecen un servicio
+                    Aproveche la oportunidad de ser extraordinario. Existen personas que con su inagotable entusiasmo por la vida logran inspirar en otros esa chispa de pasión que los motiva a superarse. El libro El factor Fred nos relata la verdadera historia de Fred, un cartero que logró hacer que un empleo comœn se convirtiera en una profesión extraordinaria al realizar su trabajo con pasión, simpatía y máxima consideración por sus clientes. En El factor Fred, Sanborn le brinda los cuatro principios que le ayudarán a destacarse en el trabajo y en la vida. Cómo tener un impacto positivo todos los díasCómo forjar lazos con personas que le ayudarán a alcanzar el éxito. Cómo crear valor para usted y los demás sin gastar un centavo.¿Desea darle a su vida un renovado sentido de energía y creatividad para poder alcanzar nuevos niveles de éxito? Al seguir estos principios, usted también podrá convertirse en un “Fred” que ve en los momentos ordinarios de la vida oportunidades para marcar una diferencia en el mundo. El factor Fred le enseña cómo lograrlo.
                 </p>
             </div>
             <div class="articleContainer__img">
-                <img src="./img/website.jpg" alt="">
+                <img src="./img/fred el cartero2.png" alt="">
             </div>
         </article>
+        <section class="comodinWrapper">
+            <h2 class="comodinWrapper__title">¿Quieres algo interesante?</h2>
+        </section>
     </main>
-    <footer>{
-
+    <footer class="footer">
+        <ul class="footer__left">
+            <li>
+                <a href=""><img class="footer__left__img" src="./img/1tinta-just-books.png" alt=""></a>
+            </li>
+        </ul>
+        <ul class="footer__right">
+            <li>
+                <a href="" class="footer__link">Github</a>
+            </li>
+            <li>
+                <a href="" class="footer__link">Linkedin</a>
+            </li>
+            <li>
+                <a href="" class="footer__link">Twitter</a>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>
