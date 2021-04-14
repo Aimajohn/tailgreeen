@@ -25,10 +25,10 @@
     <section class="hero">
         <div class="hero__disclaimer">
             <h2 class="hero__disclaimer__title">Encuentra los <span class="text-principal2"> mejores libros</span>, <br>Porque  <span class="text-principal2"> leer </span> cambia la vida</h2>
-            <div class="hero__searchbar">
-                <input type="text" class="hero__searchbar__input" placeholder=" Try  ''Jordan Peterson'' ">
+            <form action="" class="hero__searchbar">
+                <input type="search" class="hero__searchbar__input" placeholder=" Try  ''Jordan Peterson'' ">
                 <input type="image" src="./img/search.svg" class="hero__searchbar__submit" >
-            </div>
+            </form>
             <div class="hero__popular">
                 <span>Popular:</span>
                 <a class="hero__popular__category" href="">
@@ -57,60 +57,72 @@
         <img class="hero__img" src="./img/hero.png" alt="">
     </section>
     <section class="trustedBar">
-        <span>Con la confianza de:</span>
+        <span>Fuentes confiables:</span>
         <div class="trustedBar__sponsors">
-            <img class="trustedBar__sponsor1" src="./img/google.517da09.png" alt="">
-            <img class="trustedBar__sponsor1 h-5" src="./img/logo.zlibrary.png" alt="">
-            <img class="trustedBar__sponsor2" src="./img/facebook.31d5f92.png" alt="">
-            <img class="trustedBar__sponsor2" src="./img/paypal.ec56157.png" alt="">
-            <img class="trustedBar__sponsor2" src="./img/pandg.8b7310b.png" alt="">
+            <img class="trustedBar__sponsor1" src="./img/Amazon_Kindle_logo.svg.png" alt="">
+            <img class="trustedBar__sponsor2" src="./img/logo.zlibrary.png" alt="">
+            <img class="trustedBar__sponsor3" src="./img/audible-logo.png" alt="">
         </div>
     </section>
+    <a href="#primera" class="cards__start material-icons-round" >arrow_back_ios</a>
+    <section class="cardsContainer">
+        <a href="">
+            <div class="card" id="primera">
+                <img src="./img/libros.png" alt="" class="card__img">
+                <div class="card__info">
+                    <span class="card__info__subtitle">Amor a primera vista?</span>
+                    <h4 class="card__info__title">Echa un vistazo</h4>
+                </div>
+            </div>
+        </a>
+        <a href="" class="card__a" >
+            <div class="card">
+                <img src="./img/both-die-at-the-end.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./img/growth-hacker-marketing.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./img/the-millionare-fastlane.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./img/principios-ray-dalio.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./img/queremos-que-seas-rico.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./img/rich-dad-poor-dad.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./img/Fred-fractor.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./img/por-que-fracasan-los-paises.jpg" alt="" class="card__img">
+            </div>
+        </a>
+        <a href="">
+            <div class="card" id="ultima">
+                <img src="./img/los-fundamentos-de-la-libertad.jpg" alt="" class="card__img">
+            </div>
+        </a>
+    </section>
+    <a href="#ultima" class="cards__end material-icons-round">arrow_forward_ios</a>
     <main>
-        <section class="cardsContainer">
-            <div class="card">
-                <img src="./img/webwork.jpg" alt="" class="card__img">
-                <div class="card__info">
-                    <span class="card__info__subtitle">Desarrolla tu marca</span>
-                    <h4 class="card__info__title">Logo Design</h4>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./img/software.jpg" alt="" class="card__img">
-                <div class="card__info">
-                    <span class="card__info__subtitle">Desarrolla la innovacion</span>
-                    <h4 class="card__info__title">Phyton support</h4>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./img/webwork.jpg" alt="" class="card__img">
-                <div class="card__info">
-                    <span class="card__info__subtitle">Desarrolla tu marca</span>
-                    <h4 class="card__info__title">Logo Design</h4>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./img/software.jpg" alt="" class="card__img">
-                <div class="card__info">
-                    <span class="card__info__subtitle">Desarrolla la innovacion</span>
-                    <h4 class="card__info__title">Phyton support</h4>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./img/webwork.jpg" alt="" class="card__img">
-                <div class="card__info">
-                    <span class="card__info__subtitle">Desarrolla tu marca</span>
-                    <h4 class="card__info__title">Logo Design</h4>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./img/webwork.jpg" alt="" class="card__img">
-                <div class="card__info">
-                    <span class="card__info__subtitle">Desarrolla tu marca</span>
-                    <h4 class="card__info__title">Logo Design</h4>
-                </div>
-            </div>
-        </section>
         <article class="articleContainer">
             <div class="articleContainer__info">
                 <h2 class="articleContainer__info__title">El Factor Fred</h2>
@@ -142,16 +154,16 @@
                 <button class="cardv2__cta">Comprar</button>
 
                 <div class="cardv2__share">
-                    <buttoon class="material-icons md-18 text-gray-400 cardv2__share__button pl-1.5">share</buttoon>
-                    <buttoon class="material-icons md-18 cardv2__share__button text-red-600">favorite</buttoon>
+                    <buttoon class="material-icons-round md-18 text-gray-400 cardv2__share__button">share</buttoon>
+                    <buttoon class="material-icons-round md-18 cardv2__share__button text-red-600">favorite</buttoon>
                 </div>
                 <span class="cardv2__price">$55</span>
-                <img class="cardv2__img" src="./img/ps5-mando.png" srcset="./img/ps5-mando.png 1100w, ./img/ps5-mandoxl.png 1500w" sizes="(max-width:1280px) 1000px, 1200px" alt="">
+                <img class="cardv2__img" srcset="./img/ps5-mando.png 500w, ./img/ps5-mandoxl.png 1000w," sizes="100vh" alt="">
 
             </div>
             <div class="cardv2">
                 <div class="cardv2__title">
-                    <h4 class="cardv2__title__name">DualSense PS5</h4>
+                    <h4 class="cardv2__title__name">12 rules for life</h4>
                     <div class="cardv2__title__stars ">
                         <span class="material-icons-round iconSize leading-0">star</span>
                         <span class="material-icons-round iconSize leading-0">star</span>
@@ -160,16 +172,108 @@
                         <span class="material-icons-round iconSize leading-0 text-gray-300">star</span>
                     </div>
                 </div>
-                    <p class="cardv2__description">Control inalámbrico DualSense <br>
-                        Descubre una experiencia de juego más intensa con el nuevo e innovador control de PS5™. El control inalámbrico DualSense para PS5 ofrece respuesta háptica inmersiva2 en un diseño icónico.</p>
+                    <p class="cardv2__description">An Antidote To Chaos<br>
+                        Es un libro de autoayuda del psicólogo clínico canadiense y profesor de psicología Jordan Peterson. Proporciona consejos de vida a través de ensayos que abarcan temas como la ética, la psicología, la mitología y la religión, así como anécdotas personales.</p>
                 <button class="cardv2__cta">Comprar</button>
 
                 <div class="cardv2__share">
-                    <buttoon class="material-icons md-18 text-gray-400 cardv2__share__button pl-1.5">share</buttoon>
-                    <buttoon class="material-icons md-18 cardv2__share__button text-red-600">favorite</buttoon>
+                    <buttoon class="material-icons-round md-18 text-gray-400 cardv2__share__button">share</buttoon>
+                    <buttoon class="material-icons-round md-18 cardv2__share__button text-red-600">favorite</buttoon>
                 </div>
-                <span class="cardv2__price">$55</span>
-                <img class="cardv2__img" src="./img/ps5-mando.png" srcset="./img/ps5-mando.png 1100w, ./img/ps5-mandoxl.png 1500w" sizes="(max-width:1280px) 1000px, 1200px" alt="">
+                <span class="cardv2__price">$10</span>
+                <img class="cardv2__img" srcset="./img/12-rules-for-life.jpg 300w" sizes="100vh" alt="">
+
+            </div>
+            <div class="cardv2">
+                <div class="cardv2__title">
+                    <h4 class="cardv2__title__name">la gran caída</h4>
+                    <div class="cardv2__title__stars ">
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0 text-gray-300">star</span>
+                    </div>
+                </div>
+                    <p class="cardv2__description">Cómo hacer crecer su riqueza durante e...<br>
+                        ''El día que terminó con la Gran Caída empezó con una tormenta matinal. Al hombre del que se va a hablar aquí lo despertó el estallido de un formidable trueno.''</p>
+                <button class="cardv2__cta">Comprar</button>
+
+                <div class="cardv2__share">
+                    <buttoon class="material-icons-round md-18 text-gray-400 cardv2__share__button">share</buttoon>
+                    <buttoon class="material-icons-round md-18 cardv2__share__button text-red-600">favorite</buttoon>
+                </div>
+                <span class="cardv2__price">$10</span>
+                <img class="cardv2__img" srcset="./img/la-gran-caida.jpg 300w" sizes="100vh" alt="">
+
+            </div>
+            <div class="cardv2">
+                <div class="cardv2__title">
+                    <h4 class="cardv2__title__name">El obstáculo es el camino</h4>
+                    <div class="cardv2__title__stars ">
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0 text-gray-300">star</span>
+                    </div>
+                </div>
+                    <p class="cardv2__description">El arte inmemorable de convertir<br>
+                        Como expone Ryan Holiday en este revelador volumen, los obstáculos no son sólo instancias en el camino que debemos vencer: también pueden ser una fuente de inspiración y, aún más, una herramienta para convertir las crisis en oportunidades,</p>
+                <button class="cardv2__cta">Comprar</button>
+
+                <div class="cardv2__share">
+                    <buttoon class="material-icons-round md-18 text-gray-400 cardv2__share__button">share</buttoon>
+                    <buttoon class="material-icons-round md-18 cardv2__share__button text-red-600">favorite</buttoon>
+                </div>
+                <span class="cardv2__price">$10</span>
+                <img class="cardv2__img" srcset="./img/el-obstaculo-es-el-camino.jpg 300w" sizes="100vh" alt="">
+
+            </div>
+            <div class="cardv2">
+                <div class="cardv2__title">
+                    <h4 class="cardv2__title__name">Los fundamentos de la libertad</h4>
+                    <div class="cardv2__title__stars ">
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0 text-gray-300">star</span>
+                    </div>
+                </div>
+                    <p class="cardv2__description">El arte inmemorable de convertir<br>
+                        Los fundamentos de la libertad es un libro del economista austriaco y ganador del premio Nobel Friedrich A. Hayek. El libro fue primero publicado en 1960 por la University of Chicago Press.</p>
+                <button class="cardv2__cta">Comprar</button>
+
+                <div class="cardv2__share">
+                    <buttoon class="material-icons-round md-18 text-gray-400 cardv2__share__button">share</buttoon>
+                    <buttoon class="material-icons-round md-18 cardv2__share__button text-red-600">favorite</buttoon>
+                </div>
+                <span class="cardv2__price">$10</span>
+                <img class="cardv2__img" srcset="./img/los-fundamentos-de-la-libertad.jpg 300w" sizes="100vh" alt="">
+
+            </div>
+            <div class="cardv2">
+                <div class="cardv2__title">
+                    <h4 class="cardv2__title__name">por qué fracasan los países</h4>
+                    <div class="cardv2__title__stars ">
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0">star</span>
+                        <span class="material-icons-round iconSize leading-0 text-gray-300">star</span>
+                    </div>
+                </div>
+                    <p class="cardv2__description">Los origenes de la prosperidad<br>
+                        Los autores profundizan en numerosos aspectos de la economía, la sociología, la política, la religión, el derecho o la historia para hacer, en materia de política comparada, un análisis de los motivos que llevan a unos lugares, naciones o territorios a prosperar sobre otros.</p>
+                <button class="cardv2__cta">Comprar</button>
+
+                <div class="cardv2__share">
+                    <buttoon class="material-icons-round md-18 text-gray-400 cardv2__share__button">share</buttoon>
+                    <buttoon class="material-icons-round md-18 cardv2__share__button text-red-600">favorite</buttoon>
+                </div>
+                <span class="cardv2__price">$11</span>
+                <img class="cardv2__img" srcset="./img/por-que-fracasan-los-paises.jpg 300w" sizes="100vh" alt="">
 
             </div>
         </section>
